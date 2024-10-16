@@ -1,0 +1,103 @@
+:root{
+    --primary-color: #6d8cd4;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background: linear-gradient(rgba(21, 0, 92, 0.2),rgba(0, 22, 48, 0.8))
+    ,url(./assets/img/Login2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 350px;
+    height: 400px;
+    box-shadow: 5px 5px 20px 5px rgba(1, 8, 31, 0.78);
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+}
+
+.dangnhap{
+    text-align: center;
+    color: var(--primary-color);
+    padding-top: 15px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+input{
+    padding: 20px;
+    outline: none; 
+    border-style: none; 
+    background-color: transparent; 
+    color: #fff; 
+    
+}
+input::placeholder{
+    color: #969696;
+}
+.tk,.mk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    border-style: none;
+    outline: none;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid #3553b7;
+}
+.icon{
+    color:#fff;
+    margin-right: 20px;
+}
+.belowtkmk{
+    display: flex;
+    justify-content: space-around;
+    color: #a5a5a5;
+}
+.forgot{
+    display: flex;
+    
+}
+.checkbox{
+    padding-left: 10px;
+}
+.loginbutton{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn{
+    margin: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-style: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    transition: all 0.2s;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.chuacotk{
+    display: flex;
+    justify-content: center;
+    color: rgb(165, 165, 165);
+    margin-top: 10px;
+}
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: var(--primary-color);
+}

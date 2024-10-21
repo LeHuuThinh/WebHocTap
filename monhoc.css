@@ -1,9 +1,10 @@
 .sanpham{
     display: flex;
-    margin-top: 40px;
-    margin-bottom: 110px;
+    padding-top: 40px;
+    padding-bottom: 110px;
 }
 
 .sanpham__desc{
     margin-left: 30px;
+    color: var(--white-color);
 }

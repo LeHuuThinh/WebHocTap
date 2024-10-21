@@ -268,7 +268,7 @@
 /* Đăng ký Đăng nhập */
 .dkdn{                  /*Cửa sổ Đăng ký Đăng nhập*/
     width: 500px;
-    background-color: var(--white-color);
+    background-color: #fff;
     border-radius: 5px;
     overflow: hidden;           /*góc dưới của social(con) bị nhọn mà dkdn(cha) tròn nên phần dư bị ẩn*/
 }
@@ -421,7 +421,7 @@
     top: calc(100% + 2px);
     left: 0;
     width: calc(100% - 16px);
-    background-color: var(--white-color);
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 1px 3px #a0a0a0;
     display: none;
@@ -655,7 +655,7 @@
 
 .header__search-btn:hover{
     cursor: pointer;
-    background-color: rgba(238, 77, 45,0.9);
+    background-color: rgba(94, 104, 230, 0.8);
 }
 
 .header__search-btn-icon{           /*Icon nút search*/
@@ -757,7 +757,7 @@
 
 /* App Container (Content trang) */
 .app__container{                        /*Container chứa cả content web*/
-    background-color: #e1e4f3;
+    background-color: #353a40;
 }
 
 .app__content{                          /*Container của content web (k tính bg)*/
@@ -766,12 +766,12 @@
 
 .category{                              /*Container chứa danh mục sidelist*/
     border-radius: 10px;
-    background-color: var(--white-color);
+    background-color: var(--window-color);
 }
 
 .category__header{                      /*Label "Danh mục"*/
     font-size: 1.6rem;
-    color: var(--text-color);
+    color: var(--white-color);
     padding: 8px 16px;
     margin-top: 0;       /*Bỏ df*/
     border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -811,7 +811,7 @@
     position: relative;     /*Để dùng top right bottom left*/
     font-size: 1.4rem;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--white-color);
     display: block;         /*Có ms padding đc*/
     padding: 8px 16px;
     right: 0;   /*1*/
@@ -840,7 +840,7 @@
 
 .home-filter__page-num{         /*Số trang*/
     font-size: 1.5rem;
-    color: var(--text-color);
+    color: var(--white-color);
     margin-right: 22px;
 }   
 
@@ -849,7 +849,7 @@
 }
 
 .home-filter__title{        /*Label "Sx theo"*/
-    color: var(--text-color);
+    color: var(--white-color);
     font-size: 1.3rem;
     margin-right: 16px;
 }
@@ -891,7 +891,7 @@
 }
 
 .home-product-item{         /*Container của 1 ô sản phẩm*/
-    background-color: var(--white-color);
+    background-color: var(--window-color);
     margin-top: 10px;
     position: relative;
     border-radius: 5px;
@@ -915,7 +915,7 @@
 .home-product-item__name{       /*Tên sản phẩm*/
     font-size: 1.3rem;
     font-weight: 500;
-    color: var(--text-color);
+    color: var(--white-color);
     line-height: 1.7rem;        /*17px*/
     height: 3.4rem;             /*Xét height = x2 line-height = chỉ hiện 2 dòng*/
     overflow: hidden;           /*Chữ nào quá 2 dòng = ẩn*/
@@ -954,10 +954,12 @@
     justify-content: space-between;
     align-items: baseline;
     margin: 12px 10px 0;
+    padding-bottom: 5px;
 }
 
 .home-product-item__like{       /*Tim*/
     font-size: 1.5rem;
+    color: var(--white-color);
     
 }
 /* Tim yêu thích sản phẩm */
@@ -1065,6 +1067,7 @@
 .footer{        /*Container của footer*/
     border-top: 4px solid var(--primary-color);
     padding-top: 20px;
+    background-color: var(--window-color);
 }
 
 .footer__header{    /*Tiêu đề của các cột*/
@@ -1130,7 +1133,7 @@
 }
 
 .footer__bottom{        /*Container của dòng cuối*/
-    background-color: #f5f5f5;
+    background-color: var(--window-color);
     padding: 16px 0;
     margin-top: 36px;
 }
@@ -1139,7 +1142,7 @@
     font-size: 1.1rem;
     margin: 0;
     text-align: center;
-    color: #737373;
+    color: var(--white-color);
 }   
 
 .header__logo a{

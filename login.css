@@ -16,11 +16,11 @@ body{
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 .box{
     width: 350px;
-    height: 400px;
+    height: 440px;
     box-shadow: 5px 5px 20px 5px rgba(1, 8, 31, 0.78);
     border-radius: 30px;
     backdrop-filter: blur(3px);
@@ -32,6 +32,11 @@ body{
     padding-top: 15px;
     letter-spacing: 1px;
     font-size: 25px;
+}
+
+.dangnhap.header{
+    font-size: 30px;
+    color: #c3cbe7;
 }
 input{
     padding: 20px;
@@ -101,3 +106,4 @@ a{
     text-decoration: none;
     color: var(--primary-color);
 }
+

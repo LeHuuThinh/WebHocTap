@@ -1,10 +1,11 @@
 :root{
-    --primary-color: #6d8cd4;
-    --white-color: #fff;
+    --primary-color: #5e68e6;
+    --white-color: rgba(255, 255, 255, 0.85);
     --black-color: #000;
     --text-color: #333;
     --border-color: #9b9b9b;
     --star-color: rgb(255, 223, 65);
+    --window-color: rgba(145, 165, 167, 0.4);
 
     --header-height: 120px;
     --navbar-height: 38px;
@@ -97,11 +98,11 @@ html{
     text-decoration: none;
     font-size: 1.3rem;
     cursor: pointer;
-    color: var(--text-color);
+    color: var(--white-color);
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--white-color);
+    background-color: var(--window-color);
 }
 
 .btn.btn--normal:hover{

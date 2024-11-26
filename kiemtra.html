@@ -12,8 +12,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./monhoc.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./chapter.css">
+    <title>Chương II - Văn hóa về một số dân tộc thiểu số ở tỉnh Lâm Đồng</title>
+    <link rel="icon" href="./assets/img/Icon.ico">
+
 </head>
 <body>
     <div class="app">
@@ -65,10 +67,8 @@
                                         <a href="" class="header__noti_link">
                                             <img src="./assets/img/Cat1.png" alt="" class="header__noti-img">
                                             <div class="header__noti-info">
-                                                <span class="header__noti-name">Mỹ phẩm Ohui chính hãng rất chính hãng like
-                                                    for real</span>
-                                                <span class="header__noti-desci">Mô tả mỹ phẩm Ohui chính hãng rất chính
-                                                    hãng like for real</span>
+                                                <span class="header__noti-name">Nội dung thông báo 1</span>
+                                                <span class="header__noti-desci">Mô tả 1</span>
                                             </div>
                                         </a>
                                     </li>
@@ -77,8 +77,8 @@
                                         <a href="" class="header__noti_link">
                                             <img src="./assets/img/Cat2.png" alt="" class="header__noti-img">
                                             <div class="header__noti-info">
-                                                <span class="header__noti-name">Mỹ phẩm Ohui chính hãng</span>
-                                                <span class="header__noti-desci">Mô tả mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__noti-name">Nội dung thông báo 1</span>
+                                                <span class="header__noti-desci">Mô tả 1</span>
                                             </div>
                                         </a>
                                     </li>
@@ -87,8 +87,8 @@
                                         <a href="" class="header__noti_link">
                                             <img src="./assets/img/Cat3.png" alt="" class="header__noti-img">
                                             <div class="header__noti-info">
-                                                <span class="header__noti-name">Mỹ phẩm Ohui chính hãng</span>
-                                                <span class="header__noti-desci">Mô tả mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__noti-name">Nội dung thông báo 1</span>
+                                                <span class="header__noti-desci">Mô tả 1</span>
                                             </div>
                                         </a>
                                     </li>
@@ -106,16 +106,23 @@
                                 <i class="header__navbar-icon fa-regular fa-circle-question"></i>
                                 Trợ giúp</a>
                         </li>
-                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký
-                        </li>
-                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                        
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <a href="./login.html" class="user-logout">
+                                <p class="label-logout">Đăng xuất</p>
+                            </a>
+                            <i class="fa-regular fa-circle-user user-icon"></i>
+                            Xin chào, <span>User</span></li>
+                        
                     </ul>
+                    
                 </nav>
+                
                 <!-- Phần header dưới navbar -->
                 <div class="header-with-search">
                     <!-- Logo Shoppee -->
                     <div class="header__logo">
-                        <a href="#">
+                        <a href="trangchu.html">
                             CapybaraSmart
                         </a>
                     </div>
@@ -127,122 +134,69 @@
                                 <h3 class="header__search-history-header">Lịch sử tìm kiếm</h3>
                                 <ul class="header__search-history-list">
                                     <li class="header__search-history-item">
-                                        <a href="">Kem dưỡng da</a>
+                                        <a href="">Tư tưởng Hồ Chí Minh</a>
                                     </li>
                                     <li class="header__search-history-item">
-                                        <a href="">Kem trị mụn</a>
+                                        <a href="">Mạng máy tính</a>
                                     </li>
                                     <li class="header__search-history-item">
-                                        <a href="">Kem chống nắng</a>
+                                        <a href="">Thiết kế web</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="header__search-select">
-                            <span class="header__search-select-label">Trong Capybara</span>
+                        <!-- <div class="header__search-select">
+                            <span class="header__search-select-label">Trong ứng dụng</span>
                             <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
                             <ul class="header__search-option">
                                 <li class="header__search-option-item header__search-option-item-active">
-                                    <span>Trong Capybara</span>
+                                    <span>Trong ứng dụng</span>
                                     <i class="fa-solid fa-check"></i>
                                 </li>
                                 <li class="header__search-option-item">
-                                    <span>Ngoài Capybara</span>
+                                    <span>Ngoài ứng dụng</span>
                                     <i class="fa-solid fa-check"></i>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                         <button class="header__search-btn">
                             <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
                         </button>
     
                     </div>
                     <!-- Giỏ hàng -->
-                    <div class="header__cart">
-                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
-                        <span class="header__cart-number">3</span>
-                        <!-- Nocart: thêm class header__cart-list-nocart  -->
-                        <div class="header__cart-list ">
-                            <img src="./assets/img/NoCart.png" alt="" class="header__cart-list-nocart-img">
-                            <span class="header__cart-list-nocart-label">Chưa có sản phẩm</span>
-                            <!-- CóCart -->
-                            <h4 class="header__cart-header">Sản phẩm đã thêm</h4>
-                            <!-- Danh sách cart item -->
-                            <ul class="header__cart-list-item">
-                                <!-- Cart item -->
-                                <!-- Item 1 -->
-                                <li class="header__cart-item">
-                                    <img src="./assets/img/Cat2.png" alt="" class="header__cart-img">
-                                    <div class="header__cart-item-info">
-                                        <div class="header__cart-item-n-p">
-                                            <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
-                                            <div class="header__cart-item-p-q">
-                                                <span class="header__cart-item-price">2.000.000đ</span>
-                                                <span class="header__cart-item-mult">x</span>
-                                                <span class="header__cart-item-quan">2</span>
-                                            </div>
-    
-                                        </div>
-                                        <div class="header__cart-item-body">
-                                            <span class="header__cart-item-desc">Phân loại: Bạc</span>
-                                            <span class="header__cart-item-remove">Xóa</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- Item 2 -->
-                                <li class="header__cart-item">
-                                    <img src="./assets/img/Cat3.png" alt="" class="header__cart-img">
-                                    <div class="header__cart-item-info">
-                                        <div class="header__cart-item-n-p">
-                                            <h5 class="header__cart-item-name">Kem khử hôi nack</h5>
-                                            <div class="header__cart-item-p-q">
-                                                <span class="header__cart-item-price">1.750.000đ</span>
-                                                <span class="header__cart-item-mult">x</span>
-                                                <span class="header__cart-item-quan">1</span>
-                                            </div>
-    
-                                        </div>
-                                        <div class="header__cart-item-body">
-                                            <span class="header__cart-item-desc">Phân loại: Vàng</span>
-                                            <span class="header__cart-item-remove">Xóa</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- Item 3 -->
-                                <li class="header__cart-item">
-                                    <img src="./assets/img/Cat4.png" alt="" class="header__cart-img">
-                                    <div class="header__cart-item-info">
-                                        <div class="header__cart-item-n-p">
-                                            <h5 class="header__cart-item-name">Bộ kem đặc trị đầu nấm</h5>
-                                            <div class="header__cart-item-p-q">
-                                                <span class="header__cart-item-price">3.050.000đ</span>
-                                                <span class="header__cart-item-mult">x</span>
-                                                <span class="header__cart-item-quan">2</span>
-                                            </div>
-    
-                                        </div>
-                                        <div class="header__cart-item-body">
-                                            <span class="header__cart-item-desc">Phân loại: Bạch kim</span>
-                                            <span class="header__cart-item-remove">Xóa</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <a class="header__cart-btn-check btn btn--primary">Xem giỏ hàng</a>
-                        </div>
-                    </div>
+                    
                 </div>
                 <!-- ---------------------- -->
             </div>
         </header>
         <div class="app__container">
             <div class="grid">
+                
                 <div class="sanpham">
-                    <img src="./assets/img/book.png" alt="">
+                    <img src="./assets/img/Logo.jpg" style="width: 400px; border-radius: 5px;" alt="">
                     <div class="sanpham__desc">
-                        <h2 class="sanpham__header">Tiêu đề nội dung 1</h2>
-                        <p class="sanpham__noidung">Nội dung 1</p>
+                        <h2 class="sanpham__header">Kiểm tra kiến thức</h2>
+                        <p class="sanpham__noidung">Bạn sẽ được kiểm tra về các chủ đề đã học - Hình thức: Trắc nghiệm</p>
                     </div>
+                    
+                </div>
+                <div class="kienthuc">
+                    <h3 class="demuc">Bài kiểm tra về để tài giáo dục địa phương của lớp 10</h3>
+                    <form action="" id="quiz-form">
+                        <div id="quiz-container">
+                            <!-- Câu hỏi sẽ được chèn vào đây -->
+
+
+
+                        </div>
+
+                        <button type="button" class="done-btn btn" onclick="checkAnswers()">Nộp Bài</button>
+                    </form>
+                    <div id="result" class="result"></div>
+
+
+                    
                 </div>
             </div>
         </div>

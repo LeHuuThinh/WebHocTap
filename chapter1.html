@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./chapter.css">
+    <title>Chương I - Lịch sử hình thành và phát triển thành phố Đà Lạt</title>
+    <link rel="icon" href="./assets/img/Icon.ico">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <!-- grid 1456 mà navbar 1536 nên nó căn navbar giữa / dư 80 nên cách 2 bên -->
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-qr header__navbar-item--separate">
+                            Tiếp tục học tập trên ứng dụng CapybaraSmart
+                            <!-- Header QR Code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/QR.png" alt="QRCode" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-apps-link">
+                                        <img src="./assets/img/GooglePlay.png" alt="GooglePlay" class="header__qr-apps-img">
+                                    </a>
+                                    <a href="" class="header__qr-apps-link">
+                                        <img src="./assets/img/AppStore.png" alt="AppStore" class="header__qr-apps-img">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- ---------------- -->
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-square-instagram"></i>
+                            </a>
+                        </li>
+    
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-noti">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo</a>
+                            <!-- Thông báo -->
+                            <div class="header__noti">
+                                <header class="header__noti-header">
+                                    <h3 class="header__noti-header-title">Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__noti-list">
+                                    <!-- item1 -->
+                                    <li class="header__noti-item">
+                                        <a href="" class="header__noti_link">
+                                            <img src="./assets/img/Cat1.png" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__noti-name">Nội dung thông báo 1</span>
+                                                <span class="header__noti-desci">Mô tả 1</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!-- item2 -->
+                                    <li class="header__noti-item">
+                                        <a href="" class="header__noti_link">
+                                            <img src="./assets/img/Cat2.png" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__noti-name">Nội dung thông báo 1</span>
+                                                <span class="header__noti-desci">Mô tả 1</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!-- item3 -->
+                                    <li class="header__noti-item">
+                                        <a href="" class="header__noti_link">
+                                            <img src="./assets/img/Cat3.png" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__noti-name">Nội dung thông báo 1</span>
+                                                <span class="header__noti-desci">Mô tả 1</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__noti-footer">
+                                    <a href="" class="header__noti-footer-btn">
+                                        Xem tất cả
+                                    </a>
+                                </footer>
+                            </div>
+                            <!-- --------------- -->
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-regular fa-circle-question"></i>
+                                Trợ giúp</a>
+                        </li>
+                        
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <a href="./login.html" class="user-logout">
+                                <p class="label-logout">Đăng xuất</p>
+                            </a>
+                            <i class="fa-regular fa-circle-user user-icon"></i>
+                            Xin chào, <span>User</span></li>
+                        
+                    </ul>
+                    
+                </nav>
+                
+                <!-- Phần header dưới navbar -->
+                <div class="header-with-search">
+                    <!-- Logo Shoppee -->
+                    <div class="header__logo">
+                        <a href="trangchu.html">
+                            CapybaraSmart
+                        </a>
+                    </div>
+                    <!-- Thanh tìm kiếm -->
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm môn học hoặc sách">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-header">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Tư tưởng Hồ Chí Minh</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Mạng máy tính</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Thiết kế web</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="header__search-select">
+                            <span class="header__search-select-label">Trong ứng dụng</span>
+                            <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item-active">
+                                    <span>Trong ứng dụng</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài ứng dụng</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div> -->
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+    
+                    </div>
+                    <!-- Giỏ hàng -->
+                    
+                </div>
+                <!-- ---------------------- -->
+            </div>
+        </header>
+        <div class="app__container">
+            <div class="grid">
+                
+                <div class="sanpham">
+                    <img src="./assets/img/C1Img.jpg" style="width: 500px; border-radius: 5px;" alt="">
+                    <div class="sanpham__desc">
+                        <h2 class="sanpham__header">Chương I - Lịch sử hình thành và phát triển thành phố Đà Lạt</h2>
+                        <p class="sanpham__noidung">Đà Lạt được ghi nhận hình thành từ năm 1893 khi bác sỹ Alexandre Yersin đặt chân lên cao nguyên Lâm Viên và nhờ đó ông có ý kiến hết sức thuyết phục khi Paul Doumer - Toàn quyền Đông Dương hỏi tìm một địa điểm vùng cao để xây dựng nơi nghỉ dưỡng. Từ đó, thành phố Đà Lạt dần dần hình thành và đã trải qua không ít thăng trầm.    </p>
+                    </div>
+                    
+                </div>
+                <div class="kienthuc">
+                    <h3 class="demuc">1.1 Giai đoạn trước thế kỉ XX</h3>
+                    <p>Từ xa xưa, Đà Lạt và cả cao nguyên Lâm Viên là địa bàn cư trú của người Lạch, Chil, Srê thuộc dân tộc Cơ Ho.</p>
+                    <p>Trên bản đồ đạo Ninh Thuận, ở khu vực Đà Lạt và vùng phụ cận có ghi 3 chữ “Lâm Sơn Phần”.</p>
+                    <p>Khi huyện Tân Khai được thành lập, Đà Lạt nằm trong tổng Lâm Viên với 17 buôn và 268 suất đinh.</p>
+                    <p>Với nhiệm vụ tìm hiểu thượng lưu sông Đồng Nai, bác sỹ Paul Néis và trung uý Albert Septans có đến thăm một số làng người Lạch trên cao nguyên Lâm Viên ngày 16-3-1881 và ghi chép được nhiều số đo khí tượng và nhân trắc học cư dân trong vùng.</p>
+                    <p>Ngày 21-6-1893, trong một chuyến thám hiểm vùng rừng núi ở Nam Trung Kỳ giữa biển Đông và sông Mê Công, đầu nguồn sông Đồng Nai và Xê Băng Can, bác sỹ Alexandre Yersin đặt chân lên cao nguyên Lâm Viên.</p>
+                    <p>Nhân một chuyến thăm một vài nơi nghỉ dưỡng vùng cao ở Ấn Độ, toàn quyền Paul Doumer bắt đầu quan tâm đến việc tìm kiếm những nơi nghỉ dưỡng cho người da trắng ở Đông Dương. Trong thư gửi cho các khâm sứ, công sứ, ông nêu bốn điều kiện cần thiết cho một trạm nghỉ dưỡng: độ cao trên 1200 mét, nguồn nước dồi dào, đất đai canh tác được và khả năng thiết lập đường giao thông dễ dàng. Nhờ chuyến thám hiểm Lâm Viên năm 1893, Yersin đã đề xuất chọn cao nguyên Lâm Viên làm nơi nghỉ dưỡng và được Toàn quyền Paul Doumer ghi nhận.</p>
+                    <p>Năm 1897, Paul Doumer cử một phái đoàn quân sự, dưới sự chỉ huy của đại úy Thouard, nghiên cứu con đường từ Nha Trang lên Lâm Viên. Sau 11 tháng làm việc, Thouard đã chứng minh không thể đi thẳng từ Nha Trang lên được Lâm Viên và phác thảo một con đường đi từ Phan Rang lên Đà Lạt qua ngã Fimnom và cũng gợi ý xây dựng trực tiếp một con đường từ Sài Gòn lên.</p>
+                    <p>Năm 1898, khi đoàn Thouard chưa kết thúc, các đoàn tiếp theo do Garnier, Odhéra, Bernard cùng tiến hành khảo sát con đường Phan Thiết – Djiring – Đà Lạt. Missigbrott, một thành viên tùy tùng đoàn Thouard, đã ở lại sau chuyến khảo sát để lập vườn rau và chăn nuôi gia súc, tạo cơ sở cho trạm nông nghiệp và trạm khí tượng sau này.</p>
+                    <p>Ngày 1-11-1899, Toàn quyền Đông Dương ký nghị định thành lập tỉnh Đồng Nai Thượng với thủ phủ là Djiring và hai trạm hành chính là Tánh Linh và Lâm Viên (đặt tại Đà Lạt bây giờ). Đó là tiền đề pháp lý đầu tiên cho việc hình thành chức năng hành chính của Đà Lạt.</p>
+                    
+                    <h3 class="demuc">1.2  Giai đoạn 1900 - 1915</h3>
+                    <p>Sau khi Paul Doumer ký nghị định thành lập tỉnh Đồng Nai Thượng và trạm hành chính ở Lâm Viên, Champoudry được cử lên Đà Lạt bấy giờ với tư cách như một “Thị trưởng”. Trước khi về nước (1902), ông còn quyết định thành lập tuyến đường sắt Tháp Chàm – Đà Lạt (1901). Kế hoạch lập thành phố trên cao bị gián đoạn, các công trình gần như bỏ dở do khó khăn về đầu tư và trở ngại giao thông.</p>
+                    <p>Toàn quyền Paul Beau (nhiệm kỳ 1902-1908) tiếp tục cử nhiều đoàn khảo sát cao nguyên Lâm Viên như các đoàn quân sự do tướng Beylié (1903), tướng Pennequin (1904), đại uý Bizar (1905) chỉ huy, các đoàn y tế có bác sỹ Grall (1904), bác sỹ Vassal (1905),... Giai đoạn này có nhiều người tham gia khảo sát bị chết vì sốt rét, nên dự án bị lên án và thậm chí có ý kiến đề nghị huỷ bỏ. Người Pháp còn cho tìm kiếm thêm địa điểm thay thế tại thung lũng sông Đa Nhim và trên cao nguyên Djiring. Nhưng chính nhờ các đoàn khảo sát này mà người ta càng khẳng định chắc chắn hơn việc chọn  Đà Lạt.</p>
+                    <p>Ngày 5-1-1906, sau khi tham khảo ý kiến các đoàn khảo sát và theo đề nghị của bác sỹ Tardif, Hội đồng quốc phòng Đông Dương (gồm có Toàn quyền, Tướng Voyron, Thống đốc Nam Kỳ và Khâm sứ Trung Kỳ) họp tại Đà Lạt đã quyết định chọn cao nguyên Lâm Viên làm nơi nghỉ dưỡng vì hội đủ điều kiện cần thiết, đồng thời xác định vị trí Đà Lạt hiện nay thay cho Đan Kia.</p>
+                    <p>Tuy vậy, cho đến hết nhiệm kỳ của Toàn quyền Klobukowski (1908 - 1910), mọi hoạt động chẳng tiến triển được bao nhiêu. Thị trưởng Champoudry cùng hội đồng thị xã của ông trong giai đoạn này “không có một khoản ngân sách đáng kể, không có một sự trợ giúp nào cả”. Trong giai đoạn ngắn này cũng có vài công trình được xây dựng, đáng lưu ý là trạm khí tượng từ Đan Kia chuyển về; một lữ quán cho khách vãng lai, tiền thân của Khách sạn Hồ (Hôtel du Lac) đặt ở vị trí Khách sạn Hàng Không ngày nay; đường sắt Tháp Chàm - Xóm Gòn hoàn thành sau sáu năm xây dựng (1909).</p>
+                    <p>Nhiệm kỳ kế tiếp của Toàn quyền Albert Sarraut mang lại cho Đà Lạt ít nhiều sinh khí. Sự đe doạ của Nhật Bản khiến Chính phủ Pháp nới rộng quyền hạn cho Toàn quyền, cho phép cai trị bằng những nghị định do chính ông ban hành. Ông còn cho phát triển ngành y tế, tổ chức lại giáo dục và chỉ thị hoàn thành xây dựng các công trình đường sá lên  Đà Lạt trước năm 1914.</p>
+                    <p>Năm 1913, hoàn thành tuyến đường Phan Thiết - Djiring; năm 1914, tuyến Djiring- Đà Lạt. Đường sắt Phan Rang - Krongpha được đưa vào sử dụng cho phép sự buôn bán và đi lại giữa Đà Lạt và vùng xuôi phát triển. Đến năm 1915, từ Sài Gòn có thể đi  Đà Lạt bằng hai con đường: Sài Gòn - Ma Lâm -  Đà Lạt (354km) mất một ngày rưỡi và Sài Gòn - Phan Rang - Đà Lạt (414km) mất hai ngày.</p>
+                    <p>Chiến tranh thế giới lần thứ nhất bùng nổ, làn sóng người Âu đầu tiên  lên  Đà Lạt vì điều kiện về quê hương trong những ngày nghỉ phép gặp khó khăn. Họ muốn đến nghỉ dưỡng ở  Đà Lạt, một vùng khí hậu lý tưởng gợi nhớ quê hương. Đường sá lúc này khá thuận tiện. Điều đáng tiếc là cơ sở vật chất không đáp ứng đủ nhu cầu của du khách.</p>
+
+                    <h3 class="demuc">1.3  Giai đoạn 1916 - 1945</h3>
+                    <p>Đây là giai đoạn có nhiều biến động lịch sử. Chiến tranh thế giới lần thứ nhất và lần thứ hai đã làm cho tình hình chính trị xã hội có nhiều thay đổi.</p>
+                    <p>Cuộc khai thác thuộc địa lần thứ hai ở Đông Dương sau chiến tranh thế giới lần thứ nhất trở nên sôi động. Nếu số vốn đầu tư của tư bản Pháp từ năm 1888 - 1918 là 492 triệu quan thì giai đoạn từ 1924-1930 đã tăng vọt lên, cụ thể là : 1924: 170, 1925: 195, 1926:625, 1927: 705, 1928: 735, 1929: 755, 1930: 585 triệu quan. Năm 1917, Hãng Kinh tế Đông Dương (Agence économique de l’Indochine) được thành lập tại Paris với nhiệm vụ quảng cáo về khu vực này. Tình trạng lạm phát ở Pháp làm cho đồng bạc Đông Dương và các nguyên liệu tăng giá. Điều đó đã thúc đẩy sự đầu tư của tư bản Pháp trong 6 năm nói trên đạt tới con số 3 tỷ quan. Sau khủng hoảng kinh tế từ năm 1930, nền kinh tế Việt Nam lại sôi động hơn vì sự đầu tư ngày càng nhiều của tư bản Pháp.</p>
+                    <p>Chính sự đầu tư đó đã làm tăng số người ngoại kiều tới lập cư ở Việt Nam, chẳng hạn người Pháp đạt tới con số 30 ngàn người (1937), Hoa kiều 466 ngàn người (1943). Hai cuộc chiến tranh làm cho nhu cầu nghỉ ngơi tại chỗ của người ngoại quốc tăng lên.  Đà Lạt lúc này được nhiều người biết đến, nhất là sau một số bài giới thiệu và quảng cáo trên báo chí của Pháp.</p>
+                    <p>Chính sách cai trị của nhà nước bảo hộ đã chuyển sang chế độ trực trị. Triều đình Huế không có quyền kiểm soát nền ngoại giao và quân đội, chỉ giữ lại cho mình một nền hành chính hình thức, bắt đầu từ việc các công chức Pháp được biệt phái đến các cơ quan Việt Nam với tư cách phụ tá, dần dần họ lấn quyền, biến những quan lại người Việt trở thành phụ tá.</p>
+                    <p>Nghị định 6-1-1916 của Toàn quyền Roume về việc thành lập tỉnh Lâm Viên (bao gồm vùng rừng núi các tỉnh Ninh Thuận, Bình Thuận, Đồng Nai, Bình Phước và Lâm Đồng) cũng chỉ mới mở rộng sự tiếp xúc của người Âu và các tỉnh lân cận với  Đà Lạt. Địa giới tỉnh Lâm Viên được xác định như sau: phía bắc là sông Krông Knô, phía đông nam là sông Krông Pha, phía nam là sông La Giai (một nhánh sông Phan Rí), phía tây là biên giới Cămpuchia.  Nhưng Đà Lạt chưa đủ điều kiện sinh hoạt tối thiểu cho nghỉ dưỡng, đặc biệt là cơ sở pháp lý chưa thực sự bảo đảm cho ai muốn đầu tư xây dựng tại đây.</p>
+                    <p>Ngày 20-4-1916, Hội đồng nhiếp chính của vua Duy Tân đã thông báo Dụ thành lập thị tứ Đà Lạt. Tinh thần của Dụ này là trao toàn bộ quyền hạn cho Toàn quyền Đông Dương đối với Đà Lạt, nói cách khác là cho người Pháp toàn quyền sở hữu đất đai (mua bán, sang nhượng) trong khu vực và dưới quyền điều hành trực tiếp của Toàn quyền Đông Dương. Dụ này được triển khai và bổ sung thêm trong các nghị định ngày 30-5-1916, ngày 5-7-1918, ngày 30-7-1926.</p>
+                    <p>Ngày 31-10-1920, Toàn quyền Maurice Long ký nghị định thành lập khu tự trị Lâm Viên (thực hiện Dụ 11-10-1920 của triều đình Huế tách cao nguyên Lâm Viên ra khỏi tỉnh Lâm Viên). Phần đất còn lại của tỉnh Lang Bian mang tên Đồng Nai Thượng, tỉnh lị đặt tại Djiring. Công sứ Đồng Nai Thượng đóng tại Đà Lạt trong khi chờ xây dựng các cơ sở cần thiết ở Djiring.</p>
+                    <p>Cùng ngày, một nghị định khác của Toàn quyền Đông Dương ấn định khu tự trị trên cao nguyên Lâm Viên thành thị xã Đà Lạt và xác định nâng Đà Lạt lên thị xã hạng hai với những quy chế rộng rãi.</p>
+                    <p>Một nghị định khác cùng ngày về sự thành lập tại Đà Lạt Sở Nghỉ dưỡng Lâm Viên và Du lịch Nam Trung Kỳ nêu rõ:</p>
+                    <p>“Giám đốc Sở Nghỉ dưỡng Lâm Viên và Du lịch Nam Trung Kỳ là Đại biểu của Toàn quyền Đông Dương ở  Đà Lạt và kiêm nhiệm chức vụ Thị trưởng Đà Lạt.</p>
+                    <p>Đại biểu chịu trách nhiệm tổ chức khu tự trị trên cao nguyên Lâm Viên và vùng phụ cận, đặc biệt là xây dựng nơi này thành một nơi nghỉ dưỡng và một trung tâm du lịch hấp dẫn. Giám đốc có sứ mạng góp phần tôn tạo cảnh quan và tài nguyên du lịch ở Nam Trung Kỳ, cũng như các bãi tắm có thể được thiết lập.</p>
+                    <p>Đại biểu quản lý và kiểm tra các công trình xây dựng từ ngân sách của khu tự trị Lâm Viên; có quyền hạn của một viên chức hành chính địa phương về các công trình thực hiện từ ngân sách, kể cả công trình xây dựng đường lên cao nguyên Lâm Viên  từ biên giới Nam Kỳ và Tháp Chàm.</p>
+                    <p>Ông phải được tham khảo ý kiến về các điều kiện hoạt động, thời gian biểu và giá cả các dịch vụ vận tải đường bộ, đường sông và đường biển lên Lang Bian và đề nghị, nếu cần thiết, những sự thay đổi và cải tiến các dịch vụ.</p>
+                    <p>Ông được quyền sử dụng bưu chính và viễn thông trong những điều kiện được quy định dành cho khâm sứ ghi trong bảng C và D của Nghị định ngày 17-4-1916, cũng như các công sứ, trưởng trạm hành chánh và cảnh binh của tỉnh Đồng Nai Thượng, Khánh Hoà, và Bình Thuận, hội  đồng kỹ thuật công chánh và nhà ở dân dụng, nhân viên đường sắt tuyến đường Sài Gòn – Khánh Hòa và  Đà Lạt, nhân viên và giám đốc các sở dưới quyền.</p>
+                    <p>Công sứ ở Djiring, Phan Thiết và Nha Trang hợp tác với đại biểu.</p>
+                    <p>Một kỹ sư trưởng hay một kỹ sư, một kiến trúc sư hay một thanh tra chính hay thanh tra nhà ở dân dụng, do Tổng Thanh tra Công chính chỉ định với sự thoả thuận của Đại biểu Toàn quyền Đông Dương ở Đà Lạt, có nhiệm vụ nghiên cứu và theo dõi tất cả các vấn đề đòi hỏi thẩm quyền kỹ thuật đặc biệt và các vấn đề mà Đại biểu xét thấy cần thiết.”</p>
+                    <p>Để hoàn chỉnh hơn, một nghị định nhằm tổ chức lại thị xã Đà Lạt được ký ngày 26-7-1926. Các nghị định này đã đưa địa vị Đà Lạt lên cao hơn: vừa trở thành đơn vị trực thuộc Toàn quyền, vừa có tính tự trị cao hơn so với các thị xã khác. Tinh thần đó cũng đã được duy trì trong thời kỳ Pháp thuộc và kéo dài mãi cho đến tận năm 1975.</p>
+                    <p>Để hoàn chỉnh hơn, một nghị định nhằm tổ chức lại thị xã Đà Lạt được ký ngày 26-7-1926. Các nghị định này đã đưa địa vị Đà Lạt lên cao hơn: vừa trở thành đơn vị trực thuộc Toàn quyền, vừa có tính tự trị cao hơn so với các thị xã khác. Tinh thần đó cũng đã được duy trì trong thời kỳ Pháp thuộc và kéo dài mãi cho đến tận năm 1975.</p>
+                    <p>Về mặt hành chính, Đà Lạt trong giai đoạn này trở thành một đơn vị tự trị. Về mặt pháp lý, công sứ - thị trưởng Đà Lạt có những quyền hạn cho phép tiếp nhận đầu tư từ ngoài vào. Lúc này, việc mua các lô đất ở  Đà Lạt trở nên sôi động trong giới quan chức và kinh doanh người Pháp. Những công trình cơ sở hạ tầng được xây dựng: khách sạn Palace (1916 - 1922), ngăn đập xây hồ trên dòng Cam Ly (1919), nhà máy điện (1918),  nhà bưu điện, kho bạc, trường học (1920). Số nhà gỗ tăng lên rất nhanh.</p>
+                    <p>Năm 1919, Labbé - kỹ sư công chánh, xây dựng hồ nước trên dòng suối Cam Ly.</p>
+                    <p>Nhiều khu phố được thành lập phía nam, đông - nam và tây của Hồ Lớn. Người Việt sống trong làng Đa Lạc ở phía bắc suối Cam Ly và hướng tây - bắc.</p>
+                    <p>Ngày 16-8-1921, Toàn quyền René Robin thành lập khu bảo tồn Trạm Bò rộng 8.000ha. Năm 1921, trạm xá Đà Lạt chỉ là một mái nhà tranh, đến năm 1922 bệnh viện được xây dựng.</p>
+                    <p>Năm 1921, kiến trúc sư Ernest Hébrard nhận nhiệm vụ thiết lập đồ án quy hoạch Đà Lạt. Tháng 8-1923, công trình được hoàn thành với tầm nhìn và dự kiến lớn: xây dựng Đà Lạt thành thủ phủ của Liên bang Đông Dương. Theo đồ án quy hoạch, trên dòng suối Cam Ly sẽ có một chuỗi hồ từ đầu thác Cam Ly lên đến hồ Than Thở, hồ lớn nhất là ở khu vực Học viện Lục quân ngày nay. Khu công sở sẽ bố trí dọc theo trục này. Nhiều đề nghị của tác giả đã không thực tế, vì ngân sách Đông Dương lúc bấy giờ không đủ khả năng đem đồ án đó ra thực hiện. Ngoài ra, người ta còn trách tác giả không để ý đúng mức đến cảnh trí của vùng trải ra từ đồi đến núi Lâm Viên có giá trị thẩm mỹ rất lớn. Dù sao bản quy hoạch cũng đã góp phần cho việc mở mang thị xã trong những bước đầu theo một định hướng nhất quán.</p>
+                    <p>*</p>
+                    <p>Ban đầu một hội đồng thị xã gồm 4 người (2 Pháp, 2 Việt Nam) được khâm sứ Trung Kỳ chỉ định giúp việc cho đốc lý. Đến năm 1930, thị xã Đà Lạt đã có dáng dấp của một thành phố và hội đồng thị xã được tăng lên 9 người (6 Pháp, 2 Việt Nam và 1 Hoa).</p>
+                    <p>Đây là thời kỳ đầu tư nước ngoài vào Việt Nam tương đối lớn.  Đà Lạt đã có đủ điều kiện khách quan và chủ quan để phát triển. Bộ máy hành chính của người Pháp và  cơ sở hạ tầng đến giai đoạn này được xây dựng gần như đầy đủ: hệ thống giao thông đường bộ từ Sài Gòn, Phan Thiết, Phan Rang được hoàn tất, kể cả đường sắt Tháp Chàm -  Đà Lạt (1932).</p>
+                    <p>Năm 1933, một chương trình chỉnh trang mới đã được kiến trúc sư Pineau thiết lập theo một quan điểm thực tế hơn. Ông cố gắng bảo tồn các thắng cảnh và đã dự trù nhiều khoảng đất trống. Phía bắc được mở ra cho dân cư đến sinh sống. Theo đồ án này, thị xã bao quanh hồ từ phía tây đến phía đông bắc. Hầu hết những nét chủ đạo của chương trình này đã được giữ lại trong chương trình 1943.</p>
+                    <p>Hệ thống điện, nước, bệnh viện, chợ,... cũng đã được xây cất. Việc mua bán, sang nhượng cũng như thầu khoán trong xây dựng dễ dàng, nên khá nhiều công trình lớn được mọc lên trong giai đoạn này.</p>
+                    <p>Năm 1927, xây dựng thêm một nhà máy điện mới.</p>
+                    <p>Năm 1930, doanh trại Courbet được thành lập.</p>
+                    <p>Năm 1932, đường bộ Đà Lạt trực tiếp nối với Sài Gòn đi ngang qua đèo Blao bắt đầu khai thông.</p>
+                    <p>Năm 1935, khánh thành trường Lycée Yersin .</p>
+                    <p>Năm 1936, thành lập Viện Pasteur.</p>
+                    <p>Năm 1937, khai thông đường số 21 nối Đồng Nai Thượng với Đắc Lắc, dinh Toàn quyền được khởi công xây dựng.</p>
+                    <p>Năm 1938, xây dựng xong ga  Đà Lạt.</p>
+                    <p>Năm 1939, Trường Thiếu sinh quân được thành lập trên khu vực Trường Đại học  Đà Lạt ngày nay.</p>
+                    <p>Các biệt thự xinh đẹp ở đường Hoa Lay-ơn (Rue des Glaïeuls), Hoa Hồng (Rue des Roses), cư xá Saint Benoit,... mọc lên. Tốc độ xây dựng tương đối nhanh, chẳng hạn như số lượng biệt thự ở  Đà Lạt vào các năm như sau: 1936: 327, 1937: 378, 1938: 398, 1939: 427.</p>
+                    <p>Năm 1937, một chiến dịch tuyên truyền và tiếp thị cho  Đà Lạt được phát động trên báo chí Pháp và Đông Dương. Báo L’Asie nouvelle illustrée dành riêng số 56 để viết chuyên đề về  Đà Lạt. Đà Lạt đươc ca ngợi là vùng du lịch, nghỉ dưỡng, thể thao  và săn bắn lý tưởng, một trung tâm giáo dục có thứ hạng của Pháp tại Đông Dương (sau Hà Nội và Sài Gòn).</p>
+                    <p>Du khách lên  Đà Lạt ngày một đông, các buồng trong khách sạn được đặt thuê từ nhiều tháng trước. Công ty du lịch được thành lập với 80 nhân viên. Dịch vụ du lịch và xây dựng đã thu hút khá nhiều luồng cư dân lên  Đà Lạt.</p>
+                    <p>Dân số Đà Lạt tăng nhanh, đến năm 1939, lên đến 11.500 người. Họ là những người phu làm đường, phu đồn điền, thợ xây dựng ở lại định cư tại  Đà Lạt. Trạm Nông nghiệp Đan Kia không thể cung cấp đủ thực phẩm cho thành phố, ấp trồng rau Hà Đông được thành lập do nhu cầu nói trên (1938). Việc đến định cư lẻ tẻ ở vị trí các ấp Tân Lạc, Trại Hầm, Nam Thiên,  Trại Mát, đồn điền trà và canh-ki-na ở Xuân Trường, Xuân Thọ,... làm tăng thành phần cư dân  Đà Lạt lên ít nhiều. Lúc này  Đà Lạt và vùng phụ cận sản xuất rau, canh-ki-na, trà và các loại hoa. Thành phần cư dân Pháp chủ yếu là các quan chức dân sự và quân sự, một số giáo viên và học sinh ở các trường học.</p>
+                    <p>Người Việt, người Hoa và người Thượng, trừ một số ít là viên chức hạng thấp, phần lớn sống bằng những nghề dịch vụ như: buôn bán, thợ xây dựng và làm vườn. Đà Lạt chia thành hai khu vực: người Pháp ở phía nam suối Cam Ly, đa số người Việt ở phía bắc suối Cam Ly.</p>
+                    <p>Cơ sở văn hoá và giáo dục ở giai đoạn này cũng khá phát triển. Một số trường học như Lycée Yersin, Couvent des Oiseaux, Thiếu sinh quân (École des enfants de troupe) thu hút học sinh từ khắp nơi trong nước và các nước ở Đông Dương đến học.</p>
+                    <p>Có thể nói, trong những năm này, Đà Lạt chuyển sang giai đoạn phát triển. Nhu cầu xây dựng thủ phủ Đông Dương bị chìm đi, nhưng nhu cầu du lịch, nghỉ dưỡng tăng lên, dịch vụ du lịch, sự phát triển nghề làm vườn với các giống rau quả ôn đới làm cho cư dân  Đà Lạt tăng vọt lên hẳn so với giai đoạn trước. Càng ngày người ta càng phát hiện ra những ưu điểm mới của Đà Lạt, một địa điểm thích hợp cho việc nghiên cứu và học tập. Lúc này Đà Lạt đã có thể xứng đáng được gọi là thành phố trên cao nguyên. Nhịp độ phát triển này vẫn có thể tiếp tục kéo dài đến những năm sau nếu Chiến tranh thế giới thứ hai không xảy ra vào năm 1939 làm tăng nhịp độ xây dựng  Đà Lạt cao hơn trước.</p>
+                    <p>*</p>
+                    <p>Năm 1940, Toàn quyền Decoux ngay khi mới nhậm chức đã bắt tay thực hiện ý tưởng của các vị tiền nhiệm là biến Đà Lạt thành trung tâm hành chính. Năm này, kiến trúc sư Mondet phần nào trở lại quan điểm của Hébrard, đã chỉnh lại đồ án của Hébrard cho phù hợp thực tế hơn: mở rộng  Đà Lạt theo hướng nam - bắc và quy tụ tập trung các khu vực chức năng lại thành từng cụm. Ngoài các khu vực dành cho các biệt thự và cho nhà của thường dân, đồ án dự trù xung quanh hồ Đà Lạt những trung tâm công cộng gồm có:</p>
+                    <p>-        Trung tâm hành chánh tập hợp các nha sở thuộc phủ toàn quyền Đông Dương và toà thị chính tập hợp tất cả các ty sở trực thuộc thị xã.</p>
+                    <p>-        Trung  tâm thương mại.</p>
+                    <p>-        Trung tâm giải trí và thể thao (sân cù, hồ, thao trường, trường đua ngựa, câu lạc bộ, nhà thuỷ tạ, vườn trẻ, casino,…).</p>
+                    <p>Mặc dù đây là một đồ án rất đầy đủ về nhiều khía cạnh như giao thông đường sá, bảo vệ môi trường, các khu vực tự do và các khu có cây nhưng đã không được chấp thuận.</p>
+                    <p>Ngày 8-1-1941, tỉnh Langbian (Lâm Viên) được thành lập, Thị trưởng Đà Lạt kiêm Tỉnh trưởng tỉnh Langbian, tỉnh lỵ Đồng Nai Thượng đặt tại Djiring.</p>
+                    <p>Về mặt hành chính, thành phố được điều hành theo tinh thần của Nghị định 30-7-1926, khi khu tự trị Lâm Viên thành thị xã Đà Lạt. Thị xã hạng hai này được cai trị bởi một đốc lý người Pháp với sự phụ tá của viên thư ký thị xã thuộc ngạch quan cai trị thuộc địa Pháp. Triều Nguyễn có cử thêm một quản đạo và một tri huyện người Thượng cùng đóng tại Đà Lạt. Thị xã có một khoản ngân sách riêng do quyền sở hữu đất đai và quyền thu những khoản thuế bất thường. Nguồn ngân sách này được quy định nghiêm ngặt dùng để duy tu và bảo dưỡng cơ sở hạ tầng của thị xã.</p>
+                    <p>Munier đã viết trong tạp chí Indochine về Đà Lạt:</p>
+                    <p>“Không ai có thể phủ nhận  Đà Lạt chiếm một vị trí đặc biệt thuận lợi ở Viễn Đông. Khí hậu, danh lam thắng cảnh, tiềm năng phát triển làm cho  Đà Lạt thành một nơi được ưu đãi, không nơi nào có thể so sánh được.  Đà Lạt có thể trở thành một nơi nghỉ mát lớn ở Viễn Đông… Đà Lạt là xứ sở của hoa, xứ sở của thông, xứ sở của rau... thích hợp cho sinh hoạt trí thức,  Đà Lạt còn  có vùng ven săn bắn lý tưởng.”</p>
+                    <p>Chiến tranh một lần nữa làm tăng làn sóng du khách  lên  Đà Lạt. Hàng hoá từ Pháp sang gặp khó khăn, chính quyền Pháp ở Đông Dương đã phải áp dụng chính sách tự túc,  Đà Lạt được chú ý ngày càng nhiều.</p>
+                    <p>Toàn quyền Decoux đã giao cho kiến trúc sư Lagisquet thiết lập đồ án chỉnh trang và mở rộng  Đà Lạt. Trong thời gian chờ quy hoạch mới, một số biện pháp bảo vệ như bãi bỏ việc sang nhượng đất đai, kiểm soát các hầm đá, quy định mới về phân lô... được đưa ra áp dụng nghiêm ngặt. Chương trình chỉnh trang mới này đã được Toàn quyền ban bố theo Nghị định ngày 27-4-1943. Thị xã được chia ra thành 21 khu vực, đặc tính của mỗi khu vực được ấn định rất cụ thể: 7 khu vực cho nhà ở với 5 hạng biệt thự, nhà liên căn, nhà chung cư, 2 khu vực cho khu thương mại, khu riêng cho công sở, khách sạn, trường học, thể thao, trồng trọt chăn nuôi, làng nông thôn, bệnh viện và 4 khu vực không được xây cất, bất kiến tạo dành cho du lịch và tạo các khoảng không.</p>
+                    <p>Đồ án chỉnh trang còn dự trù các khoản địa dịch khác như vấn đề thẩm mỹ, việc phân lô và mua bán đất đai của tư nhân, việc xây cất nhà cửa và khai thác các đất đai ấy, việc khai thác các hầm đá, việc trừng phạt các vụ vi phạm đồ án này.</p>
+                    <p>Sau gần ba mươi năm xây dựng,  Đà Lạt vào năm 1945 đã trở thành một thành phố tuyệt đẹp của vùng Viễn Đông lúc bấy giờ. Sinh hoạt của “Thủ đô mùa hè” hết sức nhộn nhịp.</p>
+                    <p>Tốc độ phát triển đô thị cao nhất từ trước đến nay: hơn 500 biệt thự được xây cất trong vòng 5 năm bằng số biệt thự xây trong 30 năm trước: năm 1940 có 550 biệt thự, đến năm 1943 có 810 biệt thự và đến năm 1945 có 1.000 biệt thự.</p>
+                    <p>Năm 1939 xảy ra Chiến tranh thế giới lần thứ hai, liên lạc với nước ngoài bị gián đoạn, người Pháp phải ở lại Đông Dương trong thời gian lâu hơn khiến cho số người lên nghỉ mát ở  Đà Lạt luôn luôn tăng lên.</p>
+                    <p>Vốn đầu tư không sử dụng ở Nam Kỳ được đưa lên  Đà Lạt. Khắp nơi người ta bán đất, xây dựng các biệt thự. </p>
+                    <p>Tháng 10-1942, nhà máy thủy điện Ankroet được khởi công xây dựng.</p>
+                    <p>Tháng 2-1943, bắt đầu xây dựng đường Prenn mới thay đường Prenn cũ  (đường Khe Sanh, Mimosa ngày nay).</p>
+                    <p>Năm 1944, Trường Kiến trúc thuộc Trường Cao đẳng Đông Dương được chuyển từ Hà Nội vào  Đà Lạt (thuộc Trường Quốc gia Cao đẳng Mỹ thuật Paris).</p>
+                    <p>Cuối 1944, Sở Địa dư Đông Dương dời từ Gia Định lên  Đà Lạt.</p>
+                    <p>Toàn quyền Decoux chủ trương lấy  Đà Lạt làm “thủ đô mùa hè” của Đông Dương, mỗi năm nhiều quan chức làm việc ở đây đến 6 tháng. Ngoài việc xây dựng đô thị, chính quyền còn chú trọng đời sống kinh tế và văn hoá của  Đà Lạt. Về kinh tế, các trục đường giao thông với miền xuôi được sửa sang và mở rộng. Nhờ thế, việc lưu thông hàng hoá (vật liệu xây dựng cũng như hàng hoá nông nghiệp thực phẩm) lên  Đà Lạt được nhanh chóng. Tại  Đà Lạt , người Pháp cho mở rộng diện tích trồng rau hoa. Cư dân người Kinh tăng nhanh: 25.000 người (1944). Các khu dân cư được xây dựng nhiều. Khu vực phía bắc suối Cam Ly, dốc Nhà Làng (đường Nguyễn Biểu), đường Cầu Quẹo (Phan Đình Phùng), đường An Nam (Nguyễn Văn Trỗi),...</p>
+                    <p>Đời sống văn hoá  Đà Lạt cũng phát triển nhanh chóng nhờ hệ thống trường học khá phong phú, các công trình thể thao, các cơ sở lớn của tôn giáo đều được xây xong năm 1942. Cảnh quan  Đà Lạt ở khu trung tâm gần như hoàn chỉnh và được giữ nguyên mãi đến sau này.</p>
+                    <p>CHƯƠNG II:PHONG TRÀO CÁCH MẠNG GIAI ĐOẠN 1930 – 1945</p>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2of10">
+                        <h3 class="footer__header">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>  
+                            
+                            </li>  
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">Hướng dẫn</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2of10">
+                        <h3 class="footer__header">Về CapybaraShop</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu về CapybaraSmart</a>
+                            </li>  
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>  
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2of10">
+                        <h3 class="footer__header">Danh mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Môn học năm nhất</a>
+                            </li>  
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">Môn học năm hai</a>
+                            </li>  
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">Môn học năm ba</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2of10">
+                        <h3 class="footer__header">Theo dõi chúng tôi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-facebook"></i>
+                                    Facebook</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-instagram"></i>
+                                    Instagram</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-linkedin"></i>
+                                    Linkedln</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2of10">
+                        <h3 class="footer__header">Tiếp tục học tập trên ứng dụng CapybaraSmart</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/QR.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-app">
+                                <a href="" class="footer__ownload-app-link">
+                                    <img src="./assets/img/GooglePlay.png" alt="" class="footer__download-gg">   
+                                </a>
+                                <a href="" class="footer__ownload-app-link">
+                                    <img src="./assets/img/AppStore.png" alt="" class="footer__download-as">
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                
+            </div>
+            <div class="footer__bottom">
+                <div class="grid">
+                    <p class="footer__label">@ 2024 - Bản quyền thuộc về Công ty TNHH CapySmart</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./main.js">
+
+    </script>
+</body>
+</html>

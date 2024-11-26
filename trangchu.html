@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capybara Smart - Trang chủ</title>
+    <link rel="icon" href="./assets/img/Icon.ico">
+
     <!-- link kiểu chữ -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
     <!-- link cho * bỏ default các kiểu của css -->
@@ -109,11 +111,18 @@
                             <i class="header__navbar-icon fa-regular fa-circle-question"></i>
                             Trợ giúp</a>
                     </li>
-                    <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký
-                    </li>
-                    <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    
+                    <li class="header__navbar-item header__navbar-item--strong">
+                        <a href="./login.html" class="user-logout">
+                            <p class="label-logout">Đăng xuất</p>
+                        </a>
+                        <i class="fa-regular fa-circle-user user-icon"></i>
+                        Xin chào, <span>User</span></li>
+                    
                 </ul>
+                
             </nav>
+            
             <!-- Phần header dưới navbar -->
             <div class="header-with-search">
                 <!-- Logo Shoppee -->
@@ -175,37 +184,33 @@
                     <nav class="category">
                         <h3 class="category__header">
                             <i class="category__header-icon fa-solid fa-list"></i>
-                            Môn học
+                            Chương trình giáo dục
                         </h3>
                         <ul class="category-list">
                             <li class="category-item category-item--active">
-                                <a href="#" class="category-item__link">Đại cương</a>
+                                <a href="#" class="category-item__link">Chủ đề Lớp 10</a>
                             </li>
                             <li class="category-item">
-                                <a href="#" class="category-item__link">Nhập môn</a>
+                                <a href="#" class="category-item__link">Chủ đề Lớp 11</a>
                             </li>
                             <li class="category-item">
-                                <a href="#" class="category-item__link">Ngôn ngữ lập trình</a>
+                                <a href="#" class="category-item__link">Chủ đề Lớp 12</a>
                             </li>
-                            <li class="category-item">
-                                <a href="#" class="category-item__link">Tư duy và giải thuật</a>
-                            </li>
-                            <li class="category-item">
-                                <a href="#" class="category-item__link">Cơ sở dữ liệu</a>
-                            </li>
-                            <li class="category-item">
-                                <a href="#" class="category-item__link">Mạng máy tính</a>
-                            </li>
+                            
                             
                         </ul>
                     </nav>
+                    <a href="./kiemtra.html">
+                        <button class="exam-btn btn">Kiểm tra</button>
+                    </a>
+                    
+
                 </div>
                 <div class="grid__column-10">
                     <div class="home-filter">
                         <span class="home-filter__title">Sắp xếp theo</span>
-                        <button class="home-filter-btn btn">Giáo trình</button>
-                        <button class="home-filter-btn btn btn--primary">Mới nhất</button>
-                        <button class="home-filter-btn btn">Đề cương</button>
+                        <button class="home-filter-btn btn">Kiến thức</button>
+                        <button class="home-filter-btn btn btn--primary">Giáo trình</button>
 
                         <!-- <div class="selection">
                             <span class="selection__label">Giá</span>
@@ -219,20 +224,7 @@
                                 </li>
                             </ul>
                         </div> -->
-                        <div class="home-filter__page">
-                            <button class="home-filter-btn btn btn--primary">Kiểm tra</button>
-                            <span class="home-filter__page-num">
-                                <span class="home-filter__page-current">1</span>/14
-                            </span>
-                            <div class="home-filter__page-control">
-                                <a href="" class="home-filter__page-btn">
-                                    <i class="home-filter__page-icon fa-solid fa-chevron-left"></i>
-                                </a>
-                                <a href="" class="home-filter__page-btn">
-                                    <i class="home-filter__page-icon fa-solid fa-chevron-right"></i>
-                                </a>
-                            </div>
-                        </div>
+                        
                     </div>
                     <!-- Grid - Row - Column -->
                      <!-- Sản phẩm -->
@@ -240,11 +232,11 @@
                         <div class="grid__row-2">
                             <div class="grid__column-2of10">
                                 <!-- Product item -->
-                                <a href="./monhoc.html">
+                                <a href="./chapter1.html" class="chapter-content">
                                     <div class="home-product-item">
                                         <div class="home-product-item__img"
-                                            style="background-image: url(./assets/img/bookgray.png);"></div>
-                                        <h4 class="home-product-item__name">Nội dung 1</h4>
+                                            style="background-image: url(./assets/img/C1Img.jpg);"></div>
+                                        <h4 class="home-product-item__name">Chương I - Lịch sử hình thành và phát triển thành phố Đà Lạt</h4>
                                         
                                         <!-- Thả tim + Chấm sao -->
                                         <div class="home-product-item__action">
@@ -271,11 +263,11 @@
                             </div>
                             <div class="grid__column-2of10">
                                 <!-- Product item -->
-                                <a href="./monhoc.html">
+                                <a href="./chapter2.html" class="chapter-content">
                                     <div class="home-product-item">
                                         <div class="home-product-item__img"
-                                            style="background-image: url(./assets/img/bookgray.png);"></div>
-                                        <h4 class="home-product-item__name">Nội dung 1</h4>
+                                            style="background-image: url(./assets/img/C2Img.jpg);"></div>
+                                        <h4 class="home-product-item__name">Chương II - Văn hóa về một số dân tộc thiểu số ở tỉnh Lâm Đồng</h4>
                                         
                                         <!-- Thả tim + Chấm sao -->
                                         <div class="home-product-item__action">
@@ -302,11 +294,11 @@
                             </div>
                             <div class="grid__column-2of10">
                                 <!-- Product item -->
-                                <a href="./monhoc.html">
+                                <a href="./chapter3.html">
                                     <div class="home-product-item">
                                         <div class="home-product-item__img"
                                             style="background-image: url(./assets/img/bookgray.png);"></div>
-                                        <h4 class="home-product-item__name">Nội dung 1</h4>
+                                        <h4 class="home-product-item__name">Chương III -</h4>
                                         
                                         <!-- Thả tim + Chấm sao -->
                                         <div class="home-product-item__action">
@@ -333,11 +325,11 @@
                             </div>
                             <div class="grid__column-2of10">
                                 <!-- Product item -->
-                                <a href="./monhoc.html">
+                                <a href="./chapter4.html">
                                     <div class="home-product-item">
                                         <div class="home-product-item__img"
                                             style="background-image: url(./assets/img/bookgray.png);"></div>
-                                        <h4 class="home-product-item__name">Nội dung 1</h4>
+                                        <h4 class="home-product-item__name">Chương IV - </h4>
                                         
                                         <!-- Thả tim + Chấm sao -->
                                         <div class="home-product-item__action">
@@ -364,11 +356,11 @@
                             </div>
                             <div class="grid__column-2of10">
                                 <!-- Product item -->
-                                <a href="./monhoc.html">
+                                <a href="./chapter5.html">
                                     <div class="home-product-item">
                                         <div class="home-product-item__img"
                                             style="background-image: url(./assets/img/bookgray.png);"></div>
-                                        <h4 class="home-product-item__name">Nội dung 1</h4>
+                                        <h4 class="home-product-item__name">Chương V - </h4>
                                         
                                         <!-- Thả tim + Chấm sao -->
                                         <div class="home-product-item__action">
@@ -633,13 +625,13 @@
                     <h3 class="footer__header">Danh mục</h3>
                     <ul class="footer-list">
                         <li class="footer-item">
-                            <a href="" class="footer-item__link">Môn học năm nhất</a>
+                            <a href="" class="footer-item__link">Chủ đề Lớp 10</a>
                         </li>  
                         <li class="footer-item">  
-                            <a href="" class="footer-item__link">Môn học năm hai</a>
+                            <a href="" class="footer-item__link">Chủ đề Lớp 11</a>
                         </li>  
                         <li class="footer-item">  
-                            <a href="" class="footer-item__link">Môn học năm ba</a>
+                            <a href="" class="footer-item__link">Chủ đề Lớp 12</a>
                         </li>
                     </ul>
                 </div>
@@ -697,7 +689,7 @@
         <div class="modal__body">
 
             <!-- dkdn - Đăng ký -->
-            <div class="dkdn">
+            <!-- <div class="dkdn">
                 <div class="dkdn__container">
                     <div class="dkdn__header">
                         <h3 class="dkdn__heading">Đăng Ký</h3>
@@ -740,9 +732,9 @@
                         </span>
                     </a>
                 </div>
-            </div>
+            </div> -->
             <!-- dkdn - Đăng nhập -->
-           <div class="dkdn">
+           <!-- <div class="dkdn">
             <div class="dkdn__container">
                 <div class="dkdn__header">
                     <h3 class="dkdn__heading">Đăng nhập</h3>
@@ -783,7 +775,7 @@
                     </span>  
                 </a>
             </div>
-        </div>
+        </div> -->
 
 
         </div>

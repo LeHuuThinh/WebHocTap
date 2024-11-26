@@ -1,0 +1,65 @@
+.sanpham{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 110px;
+}
+
+.sanpham__desc{
+    margin-top: 60px;
+    margin-left: 30px;
+    color: var(--white-color);
+}
+
+.sanpham__header{
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.sanpham__noidung{
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.kienthuc{
+    color: var(--white-color);
+}
+
+.demuc{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.kienthuc p{
+    font-size: 25px;
+    margin-left: 60px;
+    line-height: 30px;
+}
+
+.question label{
+    font-size: 20px;
+    margin-left: 90px;
+    line-height: 30px;
+}
+
+.done-btn{
+    
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    background-color: #48d254;
+}
+
+.done-btn:hover{
+    background-color: #83e38b;
+    
+}
+
+.result{
+    font-size: 30px;
+    margin-left: 60px;
+    padding-bottom: 50px;
+    line-height: 30px;
+
+}

@@ -21,26 +21,21 @@
     <title>VR 360 độ - Beta</title>
     <link rel="icon" href="./assets/img/Icon.ico">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
     
     <style>
-        
-        #panorama {
+        .viewer{
             width: 100%;
             height: 100vh;
         }
+        
     </style>
 </head>
 
 <body>
-    <a-scene>   
-        <img id="panorama" src="./assets/img/360vr3.jpg" alt="">
-        <a-sky src="#panorama" rotaion="0 -90 0"></a-sky>
-    </a-scene>
+    
 
+    <iframe class="viewer" src="https://momento360.com/e/u/e7e3b22d0ef2425db5c53b8188fafa8f?utm_campaign=embed&utm_source=other&heading=-353.43&pitch=-13.08&field-of-view=75&size=medium&display-plan=true" frameborder="0"></iframe>
 
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/aframe/1.4.2/aframe.min.js"></script>
 
     <script src="./main.js">
     </script>

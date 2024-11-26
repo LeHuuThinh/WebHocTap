@@ -88,3 +88,13 @@
 .sanpham img{
     box-shadow: 0px 0px 10px rgba(248, 248, 248, 0.5);
 }
+
+.vr-btn{
+    height: 60px; 
+    width: 200px; 
+    background-color: var(--primary-color);
+}
+
+.vr-btn:hover{
+    opacity: 1;
+}

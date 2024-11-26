@@ -1230,3 +1230,26 @@
     background-color: #eb8190;
     
 }
+
+.home-product-item__favourite{  /*Tag yêu thích*/
+    position: absolute;
+    top: 10px;
+    left: -4px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 2px 4px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.home-product-item__favourite::before{
+    content: "";
+    position: absolute;
+    border-top: solid 4px rgb(238, 77, 45);
+    filter: brightness(60%);   /*Giảm độ sáng còn 60%*/
+    border-left: solid 4px transparent;
+    top: 100%;
+    left: 0;
+}

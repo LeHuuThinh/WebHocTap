@@ -56,10 +56,35 @@
     
 }
 
-.result{
+.result, .rank{
     font-size: 30px;
     margin-left: 60px;
     padding-bottom: 50px;
     line-height: 30px;
 
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+#back-to-top:hover {
+    background-color: #0056b3;
+}
+
+.sanpham img{
+    box-shadow: 0px 0px 10px rgba(248, 248, 248, 0.5);
 }

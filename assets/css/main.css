@@ -760,6 +760,7 @@
 /* App Container (Content trang) */
 .app__container{                        /*Container chứa cả content web*/
     background-color: #353a40;
+    padding-bottom: 100px;
 }
 
 .app__content{                          /*Container của content web (k tính bg)*/
@@ -1171,7 +1172,7 @@
     float: right;
     position: absolute;
     top: 26px;
-    right: -5px;
+    right: -12px;
     border-radius: 3px;
     text-decoration: none;
     z-index: 2;
